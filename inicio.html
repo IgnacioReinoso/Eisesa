@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Eisesa</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial;
+    }
+
+    .header {
+      text-align: center;
+      padding: 32px;
+    }
+    </style>
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Avatar Logo" style="width:180px;" class="rounded-pill"> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a class="nav-link" href="#section1">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section2">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section3">Sucursales</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="#section4">Clientes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section5">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section6">Contacto</a>
+            </li> 
+          </ul>
+        </div>
+      </div>
+    </nav>    
+    <!--/////////////////////////////////////SECCION INICIO IMAGENES/////////////////////////////////////////////////-->  
+    
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/imagen1.jpeg" alt="Los Angeles" class="d-block" style="width:100%; height:50%;">
+        </div>
+        <div class="carousel-item">
+          <img src="img/imagen2.jpeg" alt="Chicago" class="d-block" style="width:100%; height:50%;">
+        </div>
+        <div class="carousel-item">
+          <img src="img/imagen3.jpeg" alt="New York" class="d-block" style="width:100%; height:50%;">
+        </div>
+      </div>
+      
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <!--//////////////////////////////////////SECCION NOSOTROS////////////////////////////////////////////////-->  
+    <div class="container" id="section1">
+
+      <h1 class="title">Nosotros</h1>
+      <hr class="linea">
+      
+      <div class="container mt-3">
+        <div class="mt-4 p-5 bg-primary text-white rounded" id="mision">
+          <h2>Misión</h2> 
+          <p>"Ser una empresa reconocida por su exelencia en la presentacíon de servucios, fortaleciendo las relaciones con nuestros clientes mediante personal calificado, equipos humanos motivados, potenciando a aplicado con éxito nuestros planes de seguridad"</p> 
+        </div>
+      </div>
+
+      <div class="container mt-3">
+        <div class="mt-4 p-5 bg-primary text-white rounded" id="vision">
+          <h2>Visión</h2> 
+          <p>"Ser un referente nacional en presentación de servicios de distribución y transmisión de energía electrica, Promoviendo planes de seguridad eficaces, cuidando a nuestros trabjadores y transformándonos en un aporte a nuestro entorno, tanto en lo social como en lo medioambiental"</p> 
+        </div>
+      </div>
+
+      <h1 class="title">Valores Corporativos</h1>
+      <hr class="linea" > 
+      
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="card text-white bg-primary mb-3" style="max-width: 30rem;" id="valores1">
+            <div class="card-header">Compromiso</div>
+            <div class="card-body">
+              <p class="card-text">Mantener un equipo de trabajo motivado y comprometiendo con el logo de objetivos de la organización.</p>
+            </div>
+          </div>
+        </div>  
+        <div class="col-lg-3">
+          <div class="card text-white bg-primary mb-3" style="max-width: 30rem;" id="valores2">
+            <div class="card-header">Exelecia</div>
+            <div class="card-body">
+              <p class="card-text">Entregar un servicio con altos entánderes de calidad a nuestros clinetes, que permitan cosntruir relaciones de confianza a largo plazo.</p>
+            </div>
+          </div>
+        </div> 
+        <div class="col-lg-3">
+          <div class="card text-white bg-primary mb-3" style="max-width: 30rem;" id="valores3">
+            <div class="card-header">Respeto</div>
+            <div class="card-body">
+              <p class="card-text">Ser responsable del impacto de nuestras acciones en los demás reconociendo el valor y dignidad de todas las personas.</p>
+            </div>
+          </div>
+        </div> 
+        <div class="col-lg-3">
+          <div class="card text-white bg-primary mb-3" style="max-width: 30rem;" id="valores4">
+            <div class="card-header">Integridad</div>
+            <div class="card-body">
+              <p class="card-text">Cada una de nuestras actuaciones debe estar regulada por la moral y la ética..</p>
+            </div>
+          </div>
+        </div>   
+      </div>
+      
+
+      <h1 class="title">Política Integrada</h1>
+      <hr class="linea"> 
+
+      <div class="rounded bg-primary text-white mt-3" id="politica1">
+        <div class="row">
+          <div class="col-lg-2 p-3">
+            <img src="img/politica/seguridad.png" id="img_nos1">
+          </div>
+          <div class="col-lg-10 p-3">
+            <h4>SEGURIDAD Y SALUD OCUPACIONAL</h4>
+            <p>"Mantener un compromiso de protección de la salud e integridad de los trabajadores, en relación con los peligros
+            identificados para nuestra actividad, mediante un control de riesgos asociados a cada proceso y cumpliendo con un
+            programa de seguridad y salud ocupacional, con el fin de prevenir lesiones y enfermedades ocupacionales.
+            Capacitar y concientizar al personal dentro de la organización, de la importancia de sus prácticas diarias, proporcionando
+            los recursos necesarios que permitan ejercer su actividad en condiciones seguras."</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="rounded bg-primary text-white mt-3" id="politica2">
+        <div class="row">
+          <div class="col-lg-2 p-3">
+            <img src="img/politica/calidad.png" id="img_nos2">
+          </div>
+          <div class="col-lg-10 p-3">
+            <h4>CALIDAD DEL SERVICIO</h4>
+            <p>Aumentar el grado de satisfacción de sus clientes y partes interesadas, otorgando servicios de calidad, que cumplan con
+              sus expectativas y requerimientos, teniendo siempre presente el cumplimiento de los plazos relacionados con el servicio.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="rounded bg-primary text-white mt-3" id="politica3">
+        <div class="row">
+          <div class="col-lg-2 p-3">
+            <img src="img/politica/medioambiente.png" id="img_nos3">
+          </div>
+          <div class="col-lg-10 p-3">
+            <h4>MEDIO AMBIENTE</h4>
+            <p>El cuidado del medio ambiente, es actualmente nuestro principal compromiso , elaboramos planes de trabajo basados en
+              acciones que cuidan el entorno y el medio ambiente minimizando el impacto ambiental en el cual se encuentra inserta.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="rounded bg-primary text-white mt-3" id="politica4">
+        <div class="row">
+          <div class="col-lg-2 p-3">
+            <img src="img/politica/responsavilidad.png" id="img_nos4">
+          </div>
+          <div class="col-lg-10 p-3">
+            <h4>RESPONSABI L IDAD SOCIAL CORPORATIVA</h4>
+            <p>Comprometidos con la sociedad, el medio ambiente y con generar ambientes laborales saludables para nuestros
+              colaboradores</p>
+          </div>
+        </div>
+      </div>
+
+      <h1 class="title">Política</h1>
+      <hr class="linea"> 
+
+      <div class="container mt-3">
+        <div class="mt-4 p-5 bg-primary text-white rounded" id="mision">
+          <h2>Stop Work</h2> 
+          <p>Solicitamos a cada trabajador que actúen con prontitud y detengan cualquier
+            actividad que conlleve un riesgo para la salud y seguridad, propia o ajena, o que
+            pueda causar un daño al medio ambiente. Además de comunicar a la línea de
+            mando y/o representantes de la empresa, cualquier acción, omisión o situación que
+            tenga el potencial de causar un accidente con daño a las personas, cosas o
+            medioambiente.
+          </p>
+          <p> La política "Stop Work" debe aplicarse sin restricción a las consecuencias. No se
+            atribuirá ninguna culpa o responsabilidad a los trabajadores que comuniquen de
+            manera oportuna una situación de riesgo o detengan algún trabajo.
+          </p>
+          <p>
+            La salud y seguridad de los trabajadores y la protección del medioambiente son
+            nuestro compromiso diario y están por delante de cualquier otra exigencia.
+          </p> 
+        </div>
+      </div>
+
+    </div>
+    <br>
+    <!--/////////////////////////////////////SECCION SERVICIOS/////////////////////////////////////-->
+
+    <div class="container" id="section2">
+      <h1 class="title">Servicios</h1>
+      <hr class="linea">
+      
+      <br>
+
+      <div class="col-lg-12">
+        <div class="card mb-3 text-white" id="servicio3" >
+          <div class="card-header"><h2>ÁREA MEDICIÓN - SERVICIO TÉCNICO - SAE</h2></div>
+          <div class="card-body row">
+            <div class="col-lg-8 p-5">
+              <h4>ACTIVIDADES:</h4>
+              <ul>
+                <li>Conexión de servicios nuevos.</li>
+                <li>Construcción de empalmes monofásicos y trifásicos.</li>
+                <li>Cambio de medidores.</li>
+                <li>Alerta por emergencia y apoyo por contingencias.</li>
+                <li>Control pérdidas, detección de hurto individuales y masivas.</li>
+                <li>Corte y reposición suministro eléctrico.</li>
+                <li>Construcción de empalmes y conexión de servicios nuevos</li>
+                <li>Inspección y mantenimiento</li>
+                <li>Análisis y estudio de termografía</li>
+                <li>Análisis y estudio de calidad de suministro eléctrico</li>
+                <li>Servicios Netbilling</li>
+              </ul>  
+            </div>
+            <div class="col-lg-4" >
+                <img src="img/poda.jpeg" id="img_ser1">
+            </div>
+          </div>
+        </div>
+      </div>  
+      
+      <br>
+      
+      <div class="col-lg-12">
+        <div class="card mb-3 text-white" id="servicio3" >
+          <div class="card-header"><h2>ÁREA OBRAS Y MANTENIMIENTO - VEGETACIÓN, BT AT</h2></div>
+          <div class="card-body row">
+            <div class="col-lg-4">
+              <img src="img/poda.jpeg" id="img_ser2">
+            </div>
+            <div class="col-lg-8 p-5">
+              <h4>ACTIVIDADES:</h4>
+              <ul>
+                <li>Construcción de obras, proyectos de mantenimiento, inversión y/o terceros.</li>
+                <li>Construcción, mantenimiento y/o cambio de alumbrado público.</li>
+                <li>Inspección pedestre y mantenimiento de líneas de transmisión.</li>
+                <li>Alerta por emergencia y apoyo por contingencias.</li>
+                <li>Poda con camiones grúa o hidro elevadores aislado 46 y 69 kv, línea energizada.</li>
+                <li>Tala y Roce, manual o mecanizado bajo de redes eléctricas.</li>
+              </ul>  
+            </div>
+          </div>
+        </div>
+      </div>  
+      
+      <br>
+
+      <div class="col-lg-12">
+        <div class="card mb-3 text-white" id="servicio3" >
+          <div class="card-header"><h2>ÁREA LÍNEAS ENERGIZADAS - LAVADO DE AISLACIÓN</h2></div>
+          <div class="card-body row">
+            <div class="col-lg-8 p-5">
+              <h4>ACTIVIDADES:</h4>
+              <ul>
+                <li>Trabajos en redes energizadas.</li>
+                <li>Operaciones S/E en redes energizadas.</li>
+                <li>Mantenimiento preventivo y correctivo.</li>
+                <li>Poda para despeje MT BT</li>
+                <li>Cambios de postes chocados.</li>
+                <li>Intercalación de postes con líneas energizadas.</li>
+                <li>Modificación de estructuras en MT.</li>
+                <li>Instalación de estructuras para instalación de subestaciones 1 PC y 2 PC.</li>
+                <li>Mantenimiento de equipos de operación (reconectadores, Mforce, equipos tripolares).</li>
+                <li>Reparación de líneas MT.</li>
+                <li>Lavado de subestaciones de poder, líneas de distribución y transmisión.</li>
+              </ul>  
+            </div>
+            <div class="col-lg-4">
+              <img src="img/poda.jpeg" id="img_ser3"> 
+            </div>
+          </div>
+        </div>
+      </div>   
+
+
+
+    </div>
+
+    <br>
+    <!--/////////////////////////////////////SECCION SUCURSALES/////////////////////////////////////--> 
+    
+    <div class="container-fluid" id="section3">
+      <h1 class="title">Sucursales</h1>
+      <hr class="linea3">
+      <br>
+
+      <img class="ratio ratio-16x9" src="img/sucursales.png" class="mx-auto d-block">
+
+    </div>
+
+    <br>
+    <!--/////////////////////////////////////SECCION FLOTA/////////////////////////////////////--> 
+    
+    <div class="container">
+
+      <h1 class="title">Flota</h1>
+      <hr class="linea">
+      <br>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <img id="flota" src="img/Flota.jpeg" alt="...">
+        </div>
+        <div class="col-lg-6">
+          
+          <h3><b>16</b> Camiones aislados</h3>
+          <h3><b>19</b> Camiones aislados LLEE</h3>
+          <h3><b>27</b> Camiones grúa</h3>
+          <h3><b>6</b> Camiones carroceros</h3>
+          <h3><b>4</b> Retroexcavadora</h3>
+          <h3><b>75</b> Camionetas</h3>
+          <h3><b>44</b> Furgones</h3>
+          <h3><b>3</b> Buses</h3>
+          <h3><b>6</b> Carros comedor</h3>
+          <h3><b>5</b> Chipeadoras</h3>
+        </div>  
+      </div>
+
+    </div>
+    
+    <br>
+    <!--/////////////////////////////////////SECCION CLIENTES/////////////////////////////////////--> 
+
+    <div id="section4">
+      <h1 class="title">Clientes</h1>
+      <hr class="linea3">
+      <br>
+      <div class="container-fluid" id="clientes">
+        <img class="logo1" src="img/CGE.png" alt="Avatar Logo" class="rounded-pill" >
+        <img class="logo2" src="img/SAESA.png" alt="Avatar Logo" class="rounded-pill">
+      </div>
+    </div>
+
+    <br>
+    <!--/////////////////////////////////////SECCION GALERIA/////////////////////////////////////-->
+
+    <div class="container" id="section5">
+      <h1 class="lines-effect  title" >Galeria</h1>
+      <hr class="linea">
+      <br>
+      <div>
+        <div class="row"> 
+          <div class="column">
+            <img src="img/galeria/1.PNG" style="width:100%">
+            <img src="img/galeria/2.PNG" style="width:100%">
+            <img src="img/galeria/3.PNG" style="width:100%">
+            <img src="img/galeria/4.PNG" style="width:100%">
+            <img src="img/galeria/5.PNG" style="width:100%">
+            <img src="img/galeria/6.PNG" style="width:100%">
+            <img src="img/galeria/7.PNG" style="width:100%">
+            <img src="img/galeria/8.PNG" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="img/galeria/9.jpeg" style="width:100%">
+            <img src="img/galeria/10.jpeg" style="width:100%">
+            <img src="img/galeria/11.jpeg" style="width:100%">
+            <img src="img/galeria/12.jpeg" style="width:100%">
+            <img src="img/galeria/13.jpeg" style="width:100%">
+            <img src="img/galeria/14.jpeg" style="width:100%">
+            <img src="img/galeria/15.jpeg" style="width:100%">
+            <img src="img/galeria/22.jpg" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="img/galeria/16.jpeg" style="width:100%">
+            <img src="img/galeria/17.jpeg" style="width:100%">
+            <img src="img/galeria/18.jpeg" style="width:100%">
+            <img src="img/galeria/19.jpeg" style="width:100%">
+            <img src="img/galeria/20.jpeg" style="width:100%">
+            <img src="img/galeria/21.jpg" style="width:100%">
+            <img src="img/galeria/23.jpg" style="width:100%">
+          </div>
+        </div>
+      </div>  
+    </div>
+
+    <br>
+    <!--/////////////////////////////////////SECCION CONTACTO/////////////////////////////////////-->
+
+    <div class="container" id="section6">
+      <h1 class="title">Contacto</h1>
+      <hr class="linea">
+      <br>
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d652.3165307423761!2d-72.99522715430723!3d-36.82136130402579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669b407308f36fd%3A0x5c0bc7e1067a142a!2zQy4gZGUgU2VydmljaW8gMjI4NiwgQ29uY2VwY2nDs24sIELDrW8gQsOtbw!5e0!3m2!1ses-419!2scl!4v1674151859656!5m2!1ses-419!2scl" class="col-12"  height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      <div class="row">
+        <div class="col-md-6" style="margin-top:60px; margin-bottom: 60px;">
+
+          <h5>Contacto</h5>
+          <p> Completa tus datos a continuación y te contactaremos.</p>
+        
+          <form method="post">
+            <div class="mb-3 mt-3">
+              <label for="name">Nombre:</label>
+              <input type="text" class="form-control" id="name" placeholder="Ingrese Nombre..." name="name">
+            </div>
+            <div class="mb-3 mt-3">
+              <label for="email">Correo:</label>
+              <input type="email" class="form-control" id="email" placeholder="Ingrese Correo..." name="email">
+            </div>
+            <div class="mb-3 mt-3">
+              <label for="name">Asunto:</label>
+              <input type="text" class="form-control" id="name" placeholder="Ingrese Nombre..." name="asunto">
+            </div>   
+            <div class="mb-3 mt-3">
+              <label for="message">Mensaje:</label>
+              <textarea class="form-control" rows="5" placeholder="Ingrese Mensaje..." id="message" name="msg"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" name="enviar">Enviar</button>
+          
+            </form>
+            <?php
+            include("correo.php");
+            ?>
+
+          <a href="ireinoso@eisesa.cl" id="trucazo"></a>
+        </div>
+
+        <div class="col-md-6" style="margin-top:60px; margin-bottom: 60px;">
+          <h5>Casa Matriz</h5>
+          <p> Avenida General Bonilla 2286, Concepción, Región del Biobío</p>
+          <h5>Trabaja con nosotros</h5>
+          <p>Si buscas trabajo o práctica laboral envía tu CV a</p>  
+          <p>contacto@eisesa.cl</p>
+          <h5>Búscanos en</h5>
+          <a href="https://www.facebook.com/profile.php?id=100011285730322" class="fa fa-facebook"></a>
+          <a href="https://www.linkedin.com/in/eisesa-limitada-5a41a1202/?originalSubdomain=cl" class="fa fa-linkedin"></a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container-fluid" style="text-align: center; margin-top: 60px; margin-bottom: 40px;">
+            <p >© 2023 hecho por Eisesa.</p>           
+    </div>
+
+
+    <!-- Prueba-->
+    <br>
+
+
+
+    <br>
+    <!-- Prueba-->
+
+
+  </body>
+
+
+  <script>
+    const $form = document.querySelector('#form')
+    const $buttonMailto = document.querySelector('#trucazo')
+
+    $form.addEventListener('submit', handleSubmit)
+
+    function handleSubmit(event) {
+      event.preventDefault()
+      const form = new FormData(this)
+      $buttonMailto.setAttribute('href', `mailto:ireinoso@eisesa.cl?subject=nombre ${form.get('name')}  correo ${form.get('email')}&body=${form.get('message')}`)
+      $buttonMailto.click()
+    }
+  </script>
+
+
+
+</html>
